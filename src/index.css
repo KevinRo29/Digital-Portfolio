@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Tahoma';
+    src: url('../fonts/Tahoma.ttf') format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: "Tahoma", sans-serif;
+    }
+  }
