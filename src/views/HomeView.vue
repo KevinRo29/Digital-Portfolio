@@ -72,14 +72,17 @@
       </div>
     </nav>
   </div>
+
+  <!-- Contenido de la página -->
+
 </template>
 
 <script>
 export default {
   data() {
     return {
-      isOpen: false
+      isOpen: false,
     };
-  }
+  },
 };
 </script>
