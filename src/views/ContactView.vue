@@ -48,21 +48,11 @@
           </div>
           <div class="text-center mt-4">
             <a
-              v-if="isMobileDevice"
-              :href="whatsappLink"
+              href="https://wa.me/4424667799?text=Hola,%20me%20gustaría%20saber%20más%20información%20sobre%20tu%20producto."
               target="_blank"
               class="w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full shadow-xl flex items-center justify-center text-white font-bold fixed bottom-4 right-4 btn-size pulse-animation"
             >
               <span class="absolute -top-1 left-1 bg-red-600 rounded-full h-4 w-4 flex items-center justify-center text-white text-xs font-bold">!</span>
-              <img class="w-1/2" src="../assets/svg/Whatsapp.svg" alt="Whatsapp">
-            </a>
-            <a
-              v-else
-              :href="'https://wa.me/4424667799?text=' + encodeURIComponent('Hola, me gustaría saber más información sobre tu producto.')"
-              target="_blank"
-              class="w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full shadow-xl flex items-center justify-center text-white font-bold fixed bottom-4 right-4 btn-size pulse-animation"
-            >
-            <span class="absolute -top-1 left-1 bg-red-600 rounded-full h-4 w-4 flex items-center justify-center text-white text-xs font-bold">!</span>
               <img class="w-1/2" src="../assets/svg/Whatsapp.svg" alt="Whatsapp">
             </a>
           </div>
@@ -89,11 +79,5 @@ const sendEmail = (event) => {
 
   window.open(mailtoLink);
 };
-
-const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-const whatsappLink = isMobileDevice
-  ? 'https://wa.me/?text=' + encodeURIComponent('Hola, me gustaría saber más información sobre tu producto.')
-  : 'https://wa.me/4424667799?text=' + encodeURIComponent('Hola, me gustaría saber más información sobre tu producto.');
-  
 </script>
   
