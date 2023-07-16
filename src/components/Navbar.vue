@@ -1,15 +1,11 @@
 <template>
     <div>
-      <!-- Barra de navegación -->
       <nav class="bg-black text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex items-center justify-between h-16">
-            <!-- Logo -->
             <div class="flex-shrink-0">
               <a href="/home" class="text-white font-bold uppercase">Kevin Romero</a>
             </div>
-  
-            <!-- Botón para abrir/cerrar el menú -->
             <div class="flex sm:hidden">
               <button
                 @click="isOpen = !isOpen"
@@ -32,35 +28,31 @@
                 </svg>
               </button>
             </div>
-  
-            <!-- Menú -->
             <div class="hidden sm:block">
               <ul class="flex space-x-4">
                 <li>
                   <a href="/home" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Home</a>
                 </li>
                 <li>
-                  <a href="/aboutme" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">About Me</a>
+                  <a href="/aboutme" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Acera de mi</a>
                 </li>
                 <li>
-                  <a href="/contact" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Contact</a>
+                  <a href="/contact" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Contacto</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-  
-        <!-- Menú desplegable en dispositivos pequeños -->
         <div v-if="isOpen" class="sm:hidden">
           <ul class="bg-black text-white mt-2 space-y-4">
             <li>
               <a href="/home" class="text-white hover:bg-purple-700 hover:text-white block px-4 py-2 rounded-full">Home</a>
             </li>
             <li>
-              <a href="/aboutme" class="text-white hover:bg-purple-700 hover:text-white block px-4 py-2 rounded-full">About Me</a>
+              <a href="/aboutme" class="text-white hover:bg-purple-700 hover:text-white block px-4 py-2 rounded-full">Acera de mi</a>
             </li>
             <li>
-              <a href="/contact" class="text-white hover:bg-purple-700 hover:text-white block px-4 py-2 rounded-full">Contact</a>
+              <a href="/contact" class="text-white hover:bg-purple-700 hover:text-white block px-4 py-2 rounded-full">Contacto</a>
             </li>
           </ul>
         </div>
