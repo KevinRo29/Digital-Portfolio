@@ -10,7 +10,7 @@
               <button
                 @click="isOpen = !isOpen"
                 type="button"
-                class="text-white hover:bg-purple-700 rounded-md p-2 inline-flex items-center justify-center focus:outline-none"
+                class="text-white rounded-md p-2 inline-flex items-center justify-center focus:outline-none"
               >
                 <svg
                   class="h-6 w-6"
@@ -46,13 +46,13 @@
         <div v-if="isOpen" class="sm:hidden">
           <ul class="bg-black text-white mt-2 space-y-4">
             <li>
-              <a href="/home" class="text-white hover:bg-purple-700 hover:text-white block px-4 py-2 rounded-full">Home</a>
+              <a href="/home" class="text-white block px-4 py-2">Home</a>
             </li>
             <li>
-              <a href="/aboutme" class="text-white hover:bg-purple-700 hover:text-white block px-4 py-2 rounded-full">Acera de mi</a>
+              <a href="/aboutme" class="text-white block px-4 py-2">Acera de mi</a>
             </li>
             <li>
-              <a href="/contact" class="text-white hover:bg-purple-700 hover:text-white block px-4 py-2 rounded-full">Contacto</a>
+              <a href="/contact" class="text-white block px-4 py-2">Contacto</a>
             </li>
           </ul>
         </div>
