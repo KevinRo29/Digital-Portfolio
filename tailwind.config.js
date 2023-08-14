@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         purple: {
+          600: "#7C37B0",
           700: "#723185",
         }
       },

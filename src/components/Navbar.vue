@@ -34,10 +34,10 @@
                   <a href="/home" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Home</a>
                 </li>
                 <li>
-                  <a href="/aboutme" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Acera de mi</a>
+                  <a href="/aboutme" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">About me</a>
                 </li>
                 <li>
-                  <a href="/contact" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Contacto</a>
+                  <a href="/contact" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Contact</a>
                 </li>
               </ul>
             </div>
@@ -49,10 +49,10 @@
               <a href="/home" class="text-white block px-4 py-2">Home</a>
             </li>
             <li>
-              <a href="/aboutme" class="text-white block px-4 py-2">Acera de mi</a>
+              <a href="/aboutme" class="text-white block px-4 py-2">About me</a>
             </li>
             <li>
-              <a href="/contact" class="text-white block px-4 py-2">Contacto</a>
+              <a href="/contact" class="text-white block px-4 py-2">Contact</a>
             </li>
           </ul>
         </div>

@@ -17,7 +17,7 @@
           <h2 class="text-xl font-bold">{{ card.title }} - <span class="text-base">{{ card.nivel }}</span></h2>
           <p class="text-gray-600 mt-2">{{ card.description }}</p>
         </div>
-        <a :href="card.link" target="_blank" class="mt-4 inline-block w-full px-4 py-2 bg-purple-700 text-white rounded hover:bg-purple-600 text-center">Visitar</a>
+        <a :href="card.link" target="_blank" class="mt-4 inline-block w-full px-4 py-2 bg-purple-700 text-white rounded hover:bg-purple-600 text-center">Visit</a>
       </div>
     </div>
   </div>
@@ -45,45 +45,45 @@ function isHighlighted(title) {
 const frameworksCards = [
   {
     title: "Vue",
-    description: "Vue.js es un framework progresivo para construir interfaces de usuario.",
+    description: "Vue.js is a progressive framework for building user interfaces.",
     link: "https://vuejs.org",
     image: VueImage,
-    nivel: "Intermedio"
+    nivel: "Intermediate"
   },
   {
-    title: "Ionic (Angular)",
-    description: "Ionic es un framework de desarrollo de aplicaciones móviles híbridas.",
+    title: "Ionic (Angular and Vue)",
+    description: "Ionic is a hybrid mobile application development framework.",
     link: "https://ionicframework.com",
     image: IonicImage,
-    nivel: "Alto"
+    nivel: "High"
   },
   {
     title: "Bootstrap",
-    description: "Bootstrap es un framework popular para crear sitios web y aplicaciones con un diseño receptivo.",
+    description: "Bootstrap is a popular framework for creating websites and applications with responsive design.",
     link: "https://getbootstrap.com",
     image: BootstrapImage,
-    nivel: "Alto"
+    nivel: "High"
   },
   {
     title: "CodeIgniter",
-    description: "CodeIgniter es un framework de desarrollo de aplicaciones web en PHP.",
+    description: "CodeIgniter is a PHP web application development framework.",
     link: "https://codeigniter.com",
     image: CodeIgniterImage,
-    nivel: "Básico"
+    nivel: "Basic"
   },
   {
     title: "Tailwind CSS",
-    description: "Tailwind CSS es un framework de CSS utilitario y altamente personalizable.",
+    description: "Tailwind CSS is a utilitarian and highly customizable CSS framework.",
     link: "https://tailwindcss.com",
     image: TailwindImage,
-    nivel: "Intermedio"
+    nivel: "Intermediate"
   },
   {
     title: "Django",
-    description: "Django es un framework de desarrollo web en Python que sigue el patrón de diseño MVC.",
+    description: "Django is a Python web development framework that follows the MVC design pattern.",
     link: "https://www.djangoproject.com",
     image: DjangoImage,
-    nivel: "Intermedio"
+    nivel: "Intermediate"
   }
 ];
 

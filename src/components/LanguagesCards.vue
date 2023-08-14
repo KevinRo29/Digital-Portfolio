@@ -1,5 +1,5 @@
 <template>
-  <p class="text-2xl text-center mt-6">Lenguajes de programación</p>
+  <p class="text-2xl text-center mt-6">Programming Languages</p>
   <div class="flex flex-wrap justify-center mx-10">
     <div
       class="w-full sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/3 p-3"
@@ -17,7 +17,7 @@
           <h2 class="text-xl font-bold">{{ card.title }} - <span class="text-base">{{ card.nivel }}</span></h2>
           <p class="text-gray-600 mt-2">{{ card.description }}</p>
         </div>
-        <a :href="card.link" target="_blank" class="mt-4 inline-block w-full px-4 py-2 bg-purple-700 text-white rounded hover:bg-purple-600 text-center">Visitar</a>
+        <a :href="card.link" target="_blank" class="mt-4 inline-block w-full px-4 py-2 bg-purple-700 text-white rounded hover:bg-purple-600 text-center">Visit</a>
       </div>
     </div>
   </div>
@@ -33,31 +33,31 @@ import { ref } from 'vue';
 const languagesCards = [
   {
     title: "Python",
-    description: "Python es un lenguaje de programación interpretado de alto nivel y fácil de aprender.",
+    description: "Python is a high-level, easy-to-learn interpreted programming language.",
     link: "https://python.org",
     image: PythonImage,
-    nivel: "Intermedio"
+    nivel: "Intermediate"
   },
   {
     title: "JavaScript",
-    description: "JavaScript es un lenguaje de programación utilizado para crear interactividad en las páginas web.",
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    description: "JavaScript is a programming language used to create interactivity in web pages.",
+    link: "https://github.com/KevinRo29/JavaScript",
     image: JavascriptImage,
-    nivel: "Intermedio"
+    nivel: "Intermediate"
   },
   {
     title: "PHP",
-    description: "PHP es un lenguaje de programación popular para el desarrollo web del lado del servidor.",
+    description: "PHP is a popular programming language for server-side web development.",
     link: "https://www.php.net",
     image: PHPImage,
-    nivel: "Básico"
+    nivel: "Basic"
   },
   {
     title: "TypeScript",
-    description: "TypeScript es un superconjunto de JavaScript que agrega tipos estáticos opcionales al lenguaje.",
+    description: "TypeScript is a superset of JavaScript that adds optional static types to the language.",
     link: "https://www.typescriptlang.org",
     image: TypeScriptImage,
-    nivel: "Intermedio"
+    nivel: "Intermediate"
   }
 ];
 

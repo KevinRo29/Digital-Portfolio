@@ -4,17 +4,17 @@
 
     <div class="container mx-auto py-8">
       <div class="flex flex-col items-center gap-4">
-        <h1 class="text-4xl font-bold">Contacto</h1>
-        <p class="text-lg text-center">¡Escríbeme si tienes alguna pregunta o proyecto en mente!</p>
+        <h1 class="text-4xl font-bold">Contact</h1>
+        <p class="text-lg text-center">Write me if you have any questions or projects in mind!</p>
 
         <form class="w-full md:w-2/3 lg:w-1/2 px-4" @submit="sendEmail">
           <div class="mb-4">
-            <label class="block text-lg font-bold mb-2" for="name">Nombre</label>
+            <label class="block text-lg font-bold mb-2" for="name">Name</label>
             <input
               class="w-full bg-gray-200 text-black px-3 py-2 rounded-lg focus:outline-none focus:ring focus:border-purple-700"
               type="text"
               id="name"
-              placeholder="Nombre"
+              placeholder="Write your name"
               required
             />
           </div>
@@ -24,17 +24,17 @@
               class="w-full bg-gray-200 text-black px-3 py-2 rounded-lg focus:outline-none focus:ring focus:border-purple-700"
               type="email"
               id="email"
-              placeholder="Email"
+              placeholder="Wirte your email"
               required
             />
           </div>
           <div class="mb-4">
-            <label class="block text-lg font-bold mb-2" for="message">Mensaje</label>
+            <label class="block text-lg font-bold mb-2" for="message">Message</label>
             <textarea
               class="w-full bg-gray-200 text-black px-3 py-2 rounded-lg focus:outline-none focus:ring focus:border-purple-700 resize-none"
               id="message"
               rows="4"
-              placeholder="Escribe tu mensaje aquí"
+              placeholder="Write your message here"
               required
             ></textarea>
           </div>
@@ -43,7 +43,7 @@
               type="submit"
               class="w-full bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded-lg shadow font-bold"
             >
-              Enviar Mensaje
+              Send Message
             </button>
           </div>
           <div class="text-center mt-4">
