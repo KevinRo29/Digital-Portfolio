@@ -53,7 +53,7 @@ const frameworksCards = [
   {
     title: "Ionic (Angular and Vue)",
     description: "Ionic is a hybrid mobile application development framework.",
-    link: "https://ionicframework.com",
+    link: "https://github.com/KevinRo29/Interest-App",
     image: IonicImage,
     nivel: "High"
   },
