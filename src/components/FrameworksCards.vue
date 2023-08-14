@@ -46,7 +46,7 @@ const frameworksCards = [
   {
     title: "Vue",
     description: "Vue.js is a progressive framework for building user interfaces.",
-    link: "https://vuejs.org",
+    link: "https://github.com/KevinRo29/Digital-Portfolio",
     image: VueImage,
     nivel: "Intermediate"
   },
