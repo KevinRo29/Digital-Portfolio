@@ -34,7 +34,7 @@ const languagesCards = [
   {
     title: "Python",
     description: "Python is a high-level, easy-to-learn interpreted programming language.",
-    link: "https://python.org",
+    link: "https://github.com/KevinRo29/Python",
     image: PythonImage,
     nivel: "Intermediate"
   },
