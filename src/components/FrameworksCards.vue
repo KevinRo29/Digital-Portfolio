@@ -65,13 +65,6 @@ const frameworksCards = [
     nivel: "High"
   },
   {
-    title: "CodeIgniter",
-    description: "CodeIgniter is a PHP web application development framework.",
-    link: "https://codeigniter.com",
-    image: CodeIgniterImage,
-    nivel: "Basic"
-  },
-  {
     title: "Tailwind CSS",
     description: "Tailwind CSS is a utilitarian and highly customizable CSS framework.",
     link: "https://tailwindcss.com",
