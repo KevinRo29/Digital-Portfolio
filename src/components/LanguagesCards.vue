@@ -48,7 +48,7 @@ const languagesCards = [
   {
     title: "PHP",
     description: "PHP is a popular programming language for server-side web development.",
-    link: "https://www.php.net",
+    link: "https://github.com/KevinRo29/PHP",
     image: PHPImage,
     nivel: "Basic"
   },
