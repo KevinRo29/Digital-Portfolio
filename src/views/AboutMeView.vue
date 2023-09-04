@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-cover-container flex justify-start items-center px-10">
+    <div class="bg-cover-container flex justify-start items-center px-10">
         <div class="flex flex-col items-center w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:-1/3 bg-white bg-opacity-20 text-black p-4 rounded-lg">
             <img
                 src="../assets/img/Foto_Perfil.jpg"
@@ -72,9 +72,8 @@ const toggleArrowRotation = () => {
 <style>
 .bg-cover-container {
     background-image: url('../assets/img/Background.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 91vh;
+    width: 100vw;
 }
 </style>
