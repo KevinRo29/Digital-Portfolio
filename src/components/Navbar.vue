@@ -4,7 +4,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex items-center justify-between h-16">
             <div class="flex-shrink-0">
-              <a href="/home" class="text-white font-bold uppercase">Kevin Romero</a>
+              <a href="/aboutme" class="text-white font-bold uppercase">Kevin Romero</a>
             </div>
             <div class="flex sm:hidden">
               <button
@@ -31,10 +31,10 @@
             <div class="hidden sm:block">
               <ul class="flex space-x-4">
                 <li>
-                  <a href="/home" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Home</a>
+                  <a href="/aboutme" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">About me</a>
                 </li>
                 <li>
-                  <a href="/aboutme" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">About me</a>
+                  <a href="/projects" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Projects</a>
                 </li>
                 <li>
                   <a href="/contact" class="text-white hover:bg-purple-700 hover:text-white px-4 py-2 rounded-full">Contact</a>
@@ -46,10 +46,10 @@
         <div v-if="isOpen" class="sm:hidden">
           <ul class="bg-black text-white mt-2 space-y-4">
             <li>
-              <a href="/home" class="text-white block px-4 py-2">Home</a>
+              <a href="/aboutme" class="text-white block px-4 py-2">About me</a>
             </li>
             <li>
-              <a href="/aboutme" class="text-white block px-4 py-2">About me</a>
+              <a href="/projects" class="text-white block px-4 py-2">Projects</a>
             </li>
             <li>
               <a href="/contact" class="text-white block px-4 py-2">Contact</a>
