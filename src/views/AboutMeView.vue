@@ -1,7 +1,5 @@
 <template>
-    <Navbar />
-    
-    <div class="h-full bg-cover-container flex justify-end items-center py-1 px-10">
+    <div class="w-full bg-cover-container flex justify-start items-center px-10">
         <div class="flex flex-col items-center w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:-1/3 bg-white bg-opacity-20 text-black p-4 rounded-lg">
             <img
                 src="../assets/img/Foto_Perfil.jpg"
@@ -60,8 +58,6 @@
   
 <script setup lang="js">
 import { ref } from 'vue';
-import Navbar from '@/components/Navbar.vue';
-import AboutMeCard from '@/components/AboutMe.vue';
 import QRCode from '@/components/QRCode.vue';
 
 const showContact = ref(false);
@@ -75,11 +71,10 @@ const toggleArrowRotation = () => {
 
 <style>
 .bg-cover-container {
-    background-image: url('../assets/img/Background.jpg');
+    background-image: url('../assets/img/Background2.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    width: 100%;
-    height: 90.1vh;
+    background-position: center;
+    height: 91vh;
 }
 </style>

@@ -1,7 +1,5 @@
 <template>
   <div class="bg-white text-black min-h-screen">
-    <Navbar />
-
     <div class="container mx-auto py-8">
       <div class="flex flex-col items-center gap-4">
         <h1 class="text-4xl font-bold">Contact</h1>
@@ -63,8 +61,6 @@
 </template>
   
 <script setup lang="js">
-import Navbar from '@/components/Navbar.vue';
-
 const sendEmail = (event) => {
   event.preventDefault();
 
