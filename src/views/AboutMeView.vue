@@ -71,7 +71,7 @@ const toggleArrowRotation = () => {
 
 <style>
 .bg-cover-container {
-    background-image: url('../assets/img/Background2.jpg');
+    background-image: url('../assets/img/Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
