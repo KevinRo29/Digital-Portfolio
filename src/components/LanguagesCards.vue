@@ -52,13 +52,13 @@ const languagesCards = [
     image: PHPImage,
     nivel: "Basic"
   },
-  {
+  /*{
     title: "TypeScript",
     description: "TypeScript is a superset of JavaScript that adds optional static types to the language.",
     link: "https://www.typescriptlang.org",
     image: TypeScriptImage,
     nivel: "Intermediate"
-  }
+  }*/
 ];
 
 const highlightedCard = ref(null);

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white text-black min-h-screen">
+  <div class="bg-white text-black max-h-screen">
     <div class="container mx-auto py-8">
       <div class="flex flex-col items-center gap-4">
         <h1 class="text-4xl font-bold">Contact</h1>

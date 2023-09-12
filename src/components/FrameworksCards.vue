@@ -74,7 +74,7 @@ const frameworksCards = [
   {
     title: "Django",
     description: "Django is a Python web development framework that follows the MVC design pattern.",
-    link: "https://www.djangoproject.com",
+    link: "https://github.com/KevinRo29/DjangoBack",
     image: DjangoImage,
     nivel: "Intermediate"
   }
